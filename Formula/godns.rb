@@ -2,18 +2,18 @@ class Godns < Formula
   desc "GoDNS is a self-hosted dynamic DNS (DDNS) client with multi-provider support and a built-in web panel."
   homepage "https://github.com/TimothyYe/godns"
   license "Apache-2.0"
-  version "3.4.1"
+  version "3.4.2"
   head "https://github.com/TimothyYe/godns.git", branch: "master"
 
   on_macos do
     on_arm do
       url "https://github.com/TimothyYe/godns/releases/download/v#{version}/godns_#{version}_darwin_arm64.tar.gz"
-      sha256 "d0413d48778b6321744df09203f7050801bf610425d520ed77b159cde6b2967b"
+      sha256 "e625259c62acd65aac2117284f44b5044fab7e5ffaa4c4bf8d351df732e510b7"
     end
 
     on_intel do
       url "https://github.com/TimothyYe/godns/releases/download/v#{version}/godns_#{version}_darwin_amd64.tar.gz"
-      sha256 "8f77f08f0f7366ed29e405b5d13d43c8a85ae2560a33efc3f7f4e113391a8641"
+      sha256 "d5fc0458a1507ff1ca8053fb5669aa5a40a000e2d3eda8747372f672f76970f3"
     end
   end
 
